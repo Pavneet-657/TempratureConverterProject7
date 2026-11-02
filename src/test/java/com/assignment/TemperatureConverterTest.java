@@ -14,4 +14,13 @@ public class TemperatureConverterTest {
 
         assertEquals(32.0, result, 0.001);
     }
+
+    @Test
+    void testFahrenheitToCelsius() {
+        TemperatureConverter converter = new TemperatureConverter();
+
+        double result = converter.fahrenheitToCelsius(212);
+
+        assertEquals(100.0, result, 0.001);
+    }
 }
