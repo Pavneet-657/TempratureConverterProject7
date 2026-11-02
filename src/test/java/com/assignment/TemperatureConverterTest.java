@@ -15,4 +15,3 @@ public class TemperatureConverterTest {
         assertEquals(32.0, result, 0.001);
     }
 }
-
